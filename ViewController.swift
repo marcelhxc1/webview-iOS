@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  Beatrun
+//  Arkhan
 //
 //  Created by Marcel Bueno on 13/11/2019.
-//  Copyright © 2019 Visualy Publicidade. All rights reserved.
+//  Copyright © 2019 Arkhan Games all rights reserved
 //
 
 import UIKit
@@ -24,7 +24,7 @@ class ViewController: UIViewController ,WKUIDelegate{
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        let myURL = URL(string: "https://app.beatrun.com.br")
+        let myURL = URL(string: "https://hard.arkhangn.com/donate/eventos")
         let myRequest = URLRequest(url: myURL!)
         web.load(myRequest)
     }
